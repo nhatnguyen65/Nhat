@@ -5,6 +5,12 @@
     list-style: none;
 }
 
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    /* tạo hiệu ứng cuộn cho trang */
+}
+
 .wrapper {
     width: 90%;
     height: 700px;
@@ -29,17 +35,23 @@ header .menu {
 .hover a {
     margin: 0 30px;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
 .menu .head {
-    margin-top: 15px;
+    margin-top: 13px;
     margin-right: 30px;
     color: #fff;
-    font-size: 20px;
+    font-size: 2.4rem;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
 }
 
 .container {
@@ -49,16 +61,87 @@ header .menu {
 
 .container .content {
     height: 100%;
-    width: 50%;
+    width: 45%;
     float: left;
     /* background-color: #7887eb6b; */
+    margin-left: 10px;
+    margin-top: 30px;
 }
 
-.container .img-content {
+.content-head {
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.content-p {
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: justify;
+    /* căng lề 2 bên cho văn bản */
+    line-height: 1.5;
+    /* cách dòng 1.6 dành cho tiếng Việt */
+}
+
+.content-input {
+    margin-top: 10px;
+}
+
+.content-input .input {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.input .name-input {
+    color: #fff;
+    font-size: 1.4rem;
+    margin: 0 20px 0 20px;
+    width: 45%;
+}
+
+.input .input-text {
+    margin: 0;
+    width: 45%;
+    height: 20px;
+    border-radius: 5px;
+    border-color: #fff;
+}
+
+.input .input-text-specific {
+    padding-bottom: 100px;
+    font-size: 1.5rem;
+    resize: none;
+}
+
+.input .input-text::placeholder {
+    padding-left: 5px;
+}
+
+.input .input-text-specific::placeholder {
+    width: 80%;
+    line-height: 1.5;
+}
+
+.container .content-img {
     height: 100%;
-    width: 50%;
-    float: left;
-    /* background-color: #1fa4fd; */
+    width: 45%;
+    float: right;
+    margin: 0 50px;
+    margin-top: 30px;
+}
+
+.content-img .img-content {
+    height: 80%;
+    width: 90%;
+    box-shadow: 0 0 5px 1px #333;
+}
+
+.content-img .name-img {
+    color: #4400ff;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 20px;
 }
 
 footer {
