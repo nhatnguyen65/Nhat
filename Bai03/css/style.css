@@ -4,7 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    user-select: none; /* ngăn bôi đen nội dung */
+    user-select: none;
+    /* ngăn bôi đen nội dung */
 }
 
 html {
@@ -26,24 +27,29 @@ html {
     display: flex;
     position: relative;
 }
+
 #header .head-logo {
     display: flex;
     align-items: center;
 }
+
 .head-logo .logo-img {
     height: 75px;
     /*width: 50px;*/
     margin-left: 5px;
 }
+
 .head-logo .logo-text {
     color: var(--trang);
     font-size: 50px;
 }
+
 #header .search {
     position: absolute;
     top: 10px;
     right: 20px;
 }
+
 .search .text-search {
     /*font-size: 1.6rem;*/
     height: 25px;
@@ -52,18 +58,22 @@ html {
     color: var(--trang);
     padding: 5px;
 }
+
 .search .text-search::placeholder {
     color: var(--trang);
 }
+
 #header .menu {
     position: absolute;
     bottom: 10px;
     right: 20px;
 }
+
 .menu .nav-links {
     display: flex;
     margin-top: 10px;
 }
+
 .nav-links .links {
     padding: 10px 15px;
     background: var(--xanhNhat);
@@ -71,11 +81,13 @@ html {
     margin-left: 20px;
     cursor: pointer;
 }
+
 .nav-links .links a {
     color: var(--trang);
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .nav-links .links:hover {
     opacity: 0.8;
 }
@@ -85,26 +97,32 @@ html {
     margin: 40px 20px 0 20px;
     display: flex;
 }
+
 #container .content {
     width: 65%;
     /*height: 100%;*/
 }
+
 .content .title {
     font-size: 2.5rem;
     font-weight: 500;
 }
+
 .line {
     width: 100%;
     height: 2px;
     background: var(--xanhNhat);
     margin: 15px 0;
 }
+
 .content .content-box {
     display: flex;
 }
+
 .content-box .content-input {
     width: 60%;
 }
+
 .content-input .title-input {
     width: 98%;
     font-size: 1.6rem;
@@ -115,16 +133,19 @@ html {
     line-height: 1.5;
     /* cách dòng 1.6 dành cho tiếng Việt */
 }
+
 .content-input .input-lists {
     display: flex;
     flex-wrap: wrap;
 }
+
 .input-lists .list-input {
     display: inline-grid;
     width: 50%;
     font-size: 1.6rem;
     margin-top: 10px;
 }
+
 .list-input .input {
     height: 25px;
     font-size: 1.4rem;
@@ -134,18 +155,22 @@ html {
     border: 1px solid #ccc;
     border-radius: 3px;
 }
+
 .input-lists .list-message {
     width: 100%;
 }
+
 .list-message .input-message {
     height: 100px;
     /*font-size: 1.4rem;*/
     resize: none;
 }
+
 .input-lists .list-button {
     width: 100%;
     margin-top: 10px;
 }
+
 .list-button .button {
     width: 60px;
     height: 30px;
@@ -155,19 +180,23 @@ html {
     border-radius: 3px;
     cursor: pointer;
 }
+
 .list-button .button:active {
     opacity: 0.5;
     border: 1px solid #000;
 }
+
 .content-box .content-text {
     width: 40%;
     margin-left: 50px;
     margin-right: 10px;
 }
+
 .content-box .text-title {
     font-size: 2rem;
     font-weight: 500;
 }
+
 .content-text .text-content {
     font-size: 1.6rem;
     line-height: 1.5;
@@ -181,24 +210,29 @@ html {
     border-radius: 5px;
     margin-bottom: 30px;
 }
+
 .aside .aside-box {
     margin: 30px;
     /*padding-bottom: 50px;*/
 }
+
 .aside-box .aside-title {
     font-size: 2rem;
     font-weight: 500;
 }
+
 .aside-box .aside-img {
     width: 100%;
     height: 150px;
     margin-top: 20px;
 }
+
 .aside-img .img {
     width: 100%;
     height: 100%;
     border: 5px solid #fff;
 }
+
 .aside-box .aside-text {
     font-size: 1.6rem;
     margin-top: 20px;
@@ -213,6 +247,7 @@ html {
     justify-content: center;
     align-items: center;
 }
+
 #footer .footer-text {
     color: var(--trang);
     font-size: 1.5rem;
