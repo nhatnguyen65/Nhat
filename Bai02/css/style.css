@@ -55,7 +55,8 @@ header .menu {
 }
 
 .container {
-    height: 500px;
+    height: 510px;
+    margin-top: 30px;
     /* background-color: #beb5b5; */
 }
 
@@ -65,7 +66,6 @@ header .menu {
     float: left;
     /* background-color: #7887eb6b; */
     margin-left: 10px;
-    margin-top: 30px;
 }
 
 .content-head {
@@ -123,12 +123,20 @@ header .menu {
     line-height: 1.5;
 }
 
+.content .button {
+    margin: 5px 0 0 316px;
+}
+
+.button .button-text {
+    margin-right: 3px;
+    width: 60px;
+}
+
 .container .content-img {
     height: 100%;
     width: 45%;
     float: right;
     margin: 0 50px;
-    margin-top: 30px;
 }
 
 .content-img .img-content {
@@ -146,5 +154,11 @@ header .menu {
 
 footer {
     height: 100px;
-    /* background-color: #a9a4a4; */
+}
+
+footer .text {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 50px;
 }
