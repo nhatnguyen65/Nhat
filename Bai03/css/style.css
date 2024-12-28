@@ -93,7 +93,7 @@ html {
 }
 
 #container {
-    /*height: 550px;*/
+    height: 570px;
     margin: 40px 20px 0 20px;
     display: flex;
 }
@@ -241,7 +241,7 @@ html {
 }
 
 #footer {
-    height: 55px;
+    height: 60px;
     background: var(--xanh);
     display: flex;
     justify-content: center;
